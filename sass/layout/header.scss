@@ -1,0 +1,34 @@
+.logo{
+	>a{
+		text-decoration: none;
+		h1{
+			color: $naranjo-color;
+			font-weight: bold;
+			font-size: 25px;
+		}
+		span{
+			color: $naranjocl-color;
+		}
+	}
+
+	#nav{
+		list-style-type: none;
+		margin-left: 700px;
+		margin-top: -30px;
+		float: left;
+
+	
+		li{
+			display: inline;
+			font-weight: bold;
+			margin-right: 20px;
+			>a{
+				color: $gris-color;
+				text-decoration: none;
+			}
+			a:hover{
+				color: $naranjo-color;
+			}
+		}
+	}
+}

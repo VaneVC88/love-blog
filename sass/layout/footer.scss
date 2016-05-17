@@ -1,0 +1,25 @@
+.bg-orange{
+	background-color: $bg-na;
+	margin-top: 50px;
+	.single-footer{
+		margin-left: 50px;
+		h2{
+			font-size: 20px;
+			font-weight: bold;
+			color: $blanco-color;
+		}
+		p{
+			font-size: 13px;
+			color: $blanco-color;
+			width: 70%;
+		}
+		ul{
+			list-style-type: none;
+			li{
+				display: inline;
+				color: white;
+			
+			}
+		}
+	}
+}
